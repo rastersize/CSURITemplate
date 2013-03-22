@@ -181,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE84571016DCC1BE00DFD1C0 /* CSURITemplate */ = {
+		BE84571016DCC1BE00DFD1C0 /* libCSURITemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE84573616DCC1BF00DFD1C0 /* Build configuration list for PBXNativeTarget "CSURITemplate" */;
+			buildConfigurationList = BE84573616DCC1BF00DFD1C0 /* Build configuration list for PBXNativeTarget "libCSURITemplate" */;
 			buildPhases = (
 				BE84570D16DCC1BE00DFD1C0 /* Sources */,
 				BE84570E16DCC1BE00DFD1C0 /* Frameworks */,
@@ -193,7 +193,7 @@
 			);
 			dependencies = (
 			);
-			name = CSURITemplate;
+			name = libCSURITemplate;
 			productName = CSURITemplate;
 			productReference = BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */;
 			productType = "com.apple.product-type.library.static";
@@ -238,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE84571016DCC1BE00DFD1C0 /* CSURITemplate */,
+				BE84571016DCC1BE00DFD1C0 /* libCSURITemplate */,
 				BE84572116DCC1BE00DFD1C0 /* CSURITemplateTests */,
 			);
 		};
@@ -300,7 +300,7 @@
 /* Begin PBXTargetDependency section */
 		BE84572916DCC1BE00DFD1C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE84571016DCC1BE00DFD1C0 /* CSURITemplate */;
+			target = BE84571016DCC1BE00DFD1C0 /* libCSURITemplate */;
 			targetProxy = BE84572816DCC1BE00DFD1C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,7 +377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSURITemplate/CSURITemplate-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CSURITemplate;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -389,7 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSURITemplate/CSURITemplate-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CSURITemplate;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -436,7 +436,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE84573616DCC1BF00DFD1C0 /* Build configuration list for PBXNativeTarget "CSURITemplate" */ = {
+		BE84573616DCC1BF00DFD1C0 /* Build configuration list for PBXNativeTarget "libCSURITemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE84573716DCC1BF00DFD1C0 /* Debug */,
