@@ -23,7 +23,7 @@
 
 @protocol CSURITemplateVariable <NSObject>
 
-@property (readonly) NSString *key;
+@property (readonly, strong) NSString *key;
 - (NSArray *)valuesWithVariables:(NSDictionary *)variables escaper:(id<CSURITemplateEscaper>)escaper;
 - (void)enumerateKeyValuesWithVariables:(NSDictionary *)variables
                                 escaper:(id<CSURITemplateEscaper>)escaper
@@ -829,7 +829,7 @@
 
 @interface CSURITemplate ()
 
-@property (nonatomic, strong) NSString *URITemplate;
+@property (nonatomic, copy) NSString *URITemplate;
 @property (nonatomic, strong) NSMutableArray *terms;
 @property (readonly) BOOL hasError;
 
@@ -845,7 +845,7 @@
 {
     self = [super init];
     if (self) {
-        URITemplate = aURITemplate;
+        URITemplate = [aURITemplate copy];
     }
     
     return self;
