@@ -23,7 +23,7 @@
 
 @protocol CSURITemplateVariable <NSObject>
 
-@property (readonly) NSString *key;
+@property (readonly, strong) NSString *key;
 - (NSArray *)valuesWithVariables:(NSDictionary *)variables escaper:(id<CSURITemplateEscaper>)escaper;
 - (void)enumerateKeyValuesWithVariables:(NSDictionary *)variables
                                 escaper:(id<CSURITemplateEscaper>)escaper
